@@ -124,9 +124,9 @@ def create_vectorstore(url,embedding):
 def get_answer(llm,db,query):
     retriever=db.as_retriever()
     prompt = ChatPromptTemplate.from_template("""
-You are an assistant for question-answering tasks. 
-Use the following pieces of retrieved context to answer the question.
-If you don't know the answer, just say that you don't know. 
+You are research assisitant. 
+Answer the user's question clearly and factually using the given context, but do not mention or reference the context explicitly. 
+If you don't know the answer, just say that you don't know.
 
 <context>
 {context}

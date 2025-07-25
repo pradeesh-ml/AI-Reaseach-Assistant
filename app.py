@@ -36,7 +36,7 @@ with st.form(key='search_form'):
 llm,embedding=load_model()
 if search_button and query:
     st.session_state.last_query = query
-    with st.spinner("Searching for papers on semanticscholar..."):
+    with st.spinner("Searching for papers..."):
         st.session_state.search_results = retriver.retrive_paper(query,max_pages=1)
     st.session_state.selected_paper = None
     st.session_state.vector_store =  None
