@@ -18,8 +18,8 @@ Built with [Streamlit](https://streamlit.io/), [LangChain](https://python.langch
 ## Demo
 
 <p align="center">
-  <img src="images/img_1.png" width="45%" alt="Screenshot 1">
-  <img src="images/img_2.png" width="45%" alt="Screenshot 2">
+  <img src="img/img_1.png" width="45%" alt="Screenshot 1">
+  <img src="img/img_2.png" width="45%" alt="Screenshot 2">
 </p>
 
 ---
