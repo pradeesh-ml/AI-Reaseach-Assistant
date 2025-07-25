@@ -52,7 +52,7 @@ if st.session_state.search_results:
         with col1:
             if st.button(f"Select this paper", key=f"select_{i}"):
                 st.session_state.selected_paper = paper
-                with st.spinner("Preparing paper..."):
+                with st.spinner("Preparing papers..."):
                     st.session_state.vector_store = retriver.create_vectorstore(paper['link'],embedding)
                 st.session_state.chat_history = []
                 st.rerun()

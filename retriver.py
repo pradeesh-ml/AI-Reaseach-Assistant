@@ -127,7 +127,7 @@ def get_answer(llm,db,query):
 You are research assisitant. 
 Answer the user's question clearly and factually using the given context, but do not mention or reference the context explicitly. 
 If you don't know the answer, just say that you don't know.
-
+                                              
 <context>
 {context}
 </context>
