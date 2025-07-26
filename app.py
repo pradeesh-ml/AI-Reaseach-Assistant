@@ -5,7 +5,7 @@ from langchain.embeddings import HuggingFaceEmbeddings
 from dotenv import load_dotenv
 import os
 
-st.set_page_config(page_title="Free AI Research Assistant", layout="wide")
+st.set_page_config(page_title="AI Research Assistant", layout="wide")
 
 if 'search_results' not in st.session_state:
     st.session_state.search_results = None
