@@ -50,7 +50,6 @@ Create a `.env` file in the project root with the following content:
 
 ```
 GROQ_API=your_groq_api_key_here
-SERPAPI_KEY=your_serpapi_key_here  # Optional, only if you use SerpAPI elsewhere
 ```
 
 - **GROQ_API**: Get your [Groq API key](https://console.groq.com/keys) for LLM access.
